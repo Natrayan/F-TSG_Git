@@ -1,0 +1,35 @@
+def link_CreateNode(value):
+    pass
+
+ 
+
+def link_appendNode():
+    pass
+
+ 
+
+def link_DeleteNode():
+    pass
+
+ 
+
+def link_SearchNode():
+    pass
+
+ 
+
+def link_CreateList():
+    pass
+
+ 
+
+def Test():
+    #create the list
+    numlist = link_CreateList()
+    namelist = link_CreateList()
+    #creating a node for number list
+    value = 1
+    numnode = link_CreateNode(value)
+    link_appendNode(numlist,numnode)
+    link_printlist(numlist)
+    
